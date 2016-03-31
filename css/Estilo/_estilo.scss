@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+article{
+	padding-right:60px;
+}
+body{
+	font-size:16px;
+}
+h3,h4{
+	margin:0;
+}
+.colort{
+	color:transparent;
+}
+.franja{
+	background-color:$orangelight;
+	min-height:50px;
+
+	.liston{
+		color: white;
+		background-color:$naranja;
+		text-transform: uppercase;
+		padding:15px;
+		font-family: 'Beba';
+	}
+}
+.boton{
+	font-family:'Beba';
+	display:inline-block;
+	margin-top:8px 15px;
+	text-transform:uppercase;
+	color:white;
+	background-color:$naranja;
+	padding:8px 15px ;
+	border:1px solid transparent;
+	&:hover{
+		text-decoration: none;
+		border:1px solid $naranja;
+		background-color: $orangelight;
+		transition: all 1s;
+	}
+}
+.bck{
+	@include linea (15px, 3%, 30px);
+	h3{
+		display: inline-block;
+		font-family: 'Beba';
+		color:$naranja;
+		text-transform: uppercase;
+		margin-top: 5px;
+	}
+	span{
+		padding:25px 85px 20px 0px;
+		background-color:white;
+	}
+}
+
+@media screen and (max-width:768px){
+	
+	.contenido{
+		.media{
+			.media-body{
+				overflow: initial;
+			}
+		}
+		.form-group{
+			input{
+				width: 100%;
+			}
+		}
+	}
+	article{
+		padding:0;
+		margin:0;
+	}
+	
+} 

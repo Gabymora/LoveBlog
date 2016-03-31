@@ -1,0 +1,314 @@
+/*colores*/
+/* ----------------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
+.mgt {
+  margin-top: -30px; }
+
+.pd {
+  padding: 0px; }
+
+.pdt {
+  padding: 10px 0px; }
+
+.pdb {
+  padding-bottom: 50px; }
+
+.pdl {
+  padding: 0px 15px; }
+
+.row {
+  border-left: 15px solid white;
+  border-right: 15px solid white; }
+
+/*floats*/
+.floatleft {
+  float: left; }
+
+.floatright {
+  float: right; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+article {
+  padding-right: 60px; }
+
+body {
+  font-size: 16px; }
+
+h3, h4 {
+  margin: 0; }
+
+.colort {
+  color: transparent; }
+
+.franja {
+  background-color: #F1AE9D;
+  min-height: 50px; }
+  .franja .liston {
+    color: white;
+    background-color: #E7663B;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Beba'; }
+
+.boton {
+  font-family: 'Beba';
+  display: inline-block;
+  margin-top: 8px 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #E7663B;
+  padding: 8px 15px;
+  border: 1px solid transparent; }
+  .boton:hover {
+    text-decoration: none;
+    border: 1px solid #E7663B;
+    background-color: #F1AE9D;
+    transition: all 1s; }
+
+.bck {
+  background-image: url(../images/post_border_bg.png);
+  background-repeat: repeat;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 3%;
+  height: 30px; }
+  .bck h3 {
+    display: inline-block;
+    font-family: 'Beba';
+    color: #E7663B;
+    text-transform: uppercase;
+    margin-top: 5px; }
+  .bck span {
+    padding: 25px 85px 20px 0px;
+    background-color: white; }
+
+@media screen and (max-width: 768px) {
+  .contenido .media .media-body {
+    overflow: initial; }
+  .contenido .form-group input {
+    width: 100%; }
+
+  article {
+    padding: 0;
+    margin: 0; } }
+header {
+  font-family: 'Beba'; }
+
+.navbar {
+  margin-top: 15px !important;
+  margin-bottom: 0px !important; }
+  .navbar li a {
+    padding: 5px 15px; }
+  .navbar .active {
+    font-weight: bold;
+    color: #E7663B; }
+  .navbar .caja {
+    border: 1px solid #E7663B;
+    background-color: #F1AE9D;
+    width: 80px;
+    height: 80px;
+    display: inline-block; }
+  .navbar .navbar-brand {
+    color: #E7663B;
+    font-size: 2em; }
+    .navbar .navbar-brand span {
+      color: #F1AE9D; }
+  .navbar .navbar-toggle {
+    margin-top: 0px;
+    background-color: #F1AE9D;
+    border: 1px solid orange;
+    color: white; }
+    .navbar .navbar-toggle .icon-bar {
+      border: 1px solid #FB0404; }
+
+/* ..............................................INDEX................................................................... */
+#principal img {
+  /*esta imagen es el banner*/
+  bottom: 70px;
+  background: none repeat scroll 0 0 white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  margin-top: -50px;
+  margin-bottom: 5%; }
+
+article {
+  padding-right: 40px;
+  margin-bottom: 40px; }
+  article p {
+    color: #000; }
+  article .media .media-body h4 {
+    color: #E7663B;
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing: 3px;
+    padding: 5px;
+    line-height: 1.5; }
+
+#previewgallery {
+  font-family: 'Beba'; }
+  #previewgallery h4 {
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing: 3px;
+    margin-top: 3px;
+    color: gray; }
+  #previewgallery img {
+    width: 100%; }
+  #previewgallery .info {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px; }
+    #previewgallery .info span {
+      color: #E7663B;
+      font-size: .7em; }
+
+article {
+  padding-right: 40px;
+  margin-bottom: 40px; }
+  article p {
+    color: #000; }
+  article .media .media-body h4 {
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing: 3px;
+    color: #E7663B;
+    padding: 5px;
+    line-height: 1.5; }
+
+/*------------------------------------------------FOOTER----------------------------------------------*/
+footer .franja .liston {
+  padding: 10px 12px; }
+footer article {
+  padding-right: 60px; }
+  footer article h2 {
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing: 3px;
+    font-size: 1.3em; }
+  footer article p {
+    font-family: 'Helvetica Neue';
+    text-transform: none;
+    font-size: .9em;
+    color: #F2AE98; }
+
+.contenido {
+  padding-top: 20px; }
+  .contenido p {
+    color: black;
+    font-size: .9em; }
+  .contenido .imgarticle {
+    margin-right: 5px; }
+    .contenido .imgarticle img {
+      width: 100%; }
+  .contenido .media {
+    margin: 0px 0px 20px; }
+  .contenido blockquote {
+    width: 80%;
+    margin: 30px auto;
+    padding: 0px 20px;
+    border-color: #E7663B; }
+    .contenido blockquote p {
+      color: #E7663B;
+      line-height: 1.5; }
+  .contenido .bck {
+    background-image: url(../images/post_border_bg.png);
+    background-repeat: repeat;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    height: 24px; }
+    .contenido .bck h3 {
+      font-size: 1em; }
+    .contenido .bck span {
+      padding: 5px 35px 10px 0px;
+      background-color: white; }
+  .contenido a {
+    display: block;
+    color: black;
+    font-size: .9em; }
+  .contenido .caja {
+    border: 1px solid #E7663B;
+    background-color: #F1AE9D;
+    width: 55px;
+    height: 55px;
+    display: inline-block; }
+
+.imgarticle {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.contenido img {
+  width: 100%;
+  margin-bottom: 30px; }
+.contenido .form-group {
+  font-family: 'Beba'; }
+  .contenido .form-group input, .contenido .form-group textarea {
+    width: 80%; }
+    .contenido .form-group input::-webkit-input-placeholder, .contenido .form-group textarea::-webkit-input-placeholder {
+      color: #E7663B; }
+    .contenido .form-group input:placeholder-shown, .contenido .form-group textarea:placeholder-shown {
+      border: 1px solid #E7663B; }
+  .contenido .form-group textarea {
+    width: 100%; }
+  .contenido .form-group .btn-submit {
+    background-color: #E7663B;
+    width: 100%;
+    color: white; }
+
+.contenido .boton {
+  color: white;
+  display: inline-block; }
+.contenido article .imgbefore {
+  position: relative;
+  background-color: #F3F3F3; }
+  .contenido article .imgbefore img {
+    width: 100%; }
+  .contenido article .imgbefore .comilla {
+    position: relative;
+    padding: 30px; }
+    .contenido article .imgbefore .comilla:before {
+      position: absolute;
+      content: url("../images/quote.png");
+      left: 0;
+      top: 15px; }
+  .contenido article .imgbefore .icono {
+    content: url("../images/icon1.png");
+    position: absolute;
+    top: 0;
+    left: -90px; }
+  .contenido article .imgbefore .icono2 {
+    content: url("../images/icon2.png"); }
+  .contenido article .imgbefore .icono3 {
+    content: url("../images/icon3.png"); }
+  .contenido article .imgbefore .icono4 {
+    content: url("../images/icon4.png"); }
+  .contenido article .imgbefore .icono5 {
+    content: url("../images/icon5.png"); }
+.contenido article h3 {
+  font-family: 'Beba';
+  font-size: 1.1em;
+  word-spacing: 3px;
+  padding-top: 3px;
+  color: #E7663B;
+  font-size: .9em;
+  margin: 15px 0px; }
+.contenido article a {
+  display: inline-block; }
+.contenido article .bckwhite {
+  background-color: white; }
+
+@font-face {
+  font-family: 'Beba';
+  src: url("../font/bebas___-webfont.ttf"); }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../font/HelveticaNeue.ttf");
+  src: url("../font/HelveticaNeue.eot");
+  src: url("../font/HelveticaNeue.woff"); }
+
+/*# sourceMappingURL=main.css.map */

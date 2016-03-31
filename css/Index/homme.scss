@@ -1,0 +1,129 @@
+header{
+		font-family: 'Beba';
+}
+.navbar {
+	margin-top:15px !important;
+	margin-bottom: 0px !important;
+	   li{
+		   	a{
+		   		padding:5px 15px;
+		   } 
+	   }
+   
+   .active{
+   		font-weight: bold;
+   		color:$naranja;
+   }
+	.caja{
+		border:1px solid $naranja;
+		background-color:$orangelight;
+		width: 80px;
+		height:80px;
+		display: inline-block;
+	}
+	.navbar-brand{
+		color:$naranja;
+		font-size: 2em;
+		span{
+			color:$orangelight;
+		}
+	}
+	.navbar-toggle {
+	    margin-top: 0px;
+	    background-color: $orangelight;
+	    border: 1px solid orange;
+	    color:white;
+	    .icon-bar{
+		border:1px solid #FB0404 
+	    }
+	}
+}
+/* ..............................................INDEX................................................................... */
+#principal{
+	img{		/*esta imagen es el banner*/
+		bottom:70px;
+		background:none repeat scroll 0 0 white;
+		border-left: 10px solid white;
+		border-right: 10px solid white;
+		margin-top: -50px;
+		margin-bottom: 5%;
+	}
+}
+article{
+	padding-right:40px;
+	margin-bottom:40px;
+	p{
+		color:#000;
+	}
+	.media{	
+		.media-body{
+			h4{
+				color:$naranja;
+				@include propertieich;
+				padding:5px;
+				line-height: 1.5;
+			}
+		}
+	}
+}
+#previewgallery{
+	font-family:'Beba';
+	h4{
+		@include propertieich;
+		margin-top:3px;
+		color:gray;
+	}
+	img{
+			width: 100%;
+		}
+	.info{
+		border-left:1px solid $gris;
+		border-right:1px solid $gris;
+		border-bottom:1px solid $gris;
+		padding:20px;
+		span{
+			color:$naranja;
+			font-size: .7em;
+		}		
+	}
+}
+article{
+	padding-right:40px;
+	margin-bottom:40px;
+	p{
+		color:#000;
+	}
+	.media{	
+		.media-body{
+			h4{
+				@include propertieich;
+				color:$naranja;
+				padding:5px;
+				line-height: 1.5;
+			}
+		}
+	}
+}
+/*------------------------------------------------FOOTER----------------------------------------------*/
+footer{
+	.franja{
+		.liston{
+			padding:10px 12px;
+		}
+	}
+	article{
+		padding-right:60px;
+
+		h2{
+			@include propertieich;
+			font-size: 1.3em;
+		}
+		p{
+			font-family: 'Helvetica Neue';
+			text-transform: none;
+			font-size: .9em;
+			color:$lefoo;
+		}
+	}
+	
+}

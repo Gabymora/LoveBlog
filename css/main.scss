@@ -1,0 +1,17 @@
+@import "variables/-variables";
+@import "estilo/_estilo";
+@import "index/homme";
+@import "aboutus/about";
+@import "contacto/-contacto";
+@import "blog/_blog";
+
+@font-face{
+	font-family: 'Beba';
+	src:url('../font/bebas___-webfont.ttf');
+}
+@font-face{
+	font-family: 'Helvetica Neue';
+	src:url('../font/HelveticaNeue.ttf');
+	src:url('../font/HelveticaNeue.eot');
+	src:url('../font/HelveticaNeue.woff');
+}

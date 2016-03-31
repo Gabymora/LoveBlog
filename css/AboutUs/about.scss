@@ -1,0 +1,54 @@
+.contenido{
+	padding-top:20px;
+	p{
+		color:black;
+		font-size:.9em;
+	}
+	.imgarticle{
+		margin-right: 5px;
+		img{
+			width: 100%;
+		}
+	}
+	.media{
+		margin:0px 0px 20px;
+	}
+	blockquote{
+		width: 80%;
+		margin:30px auto;
+		padding: 0px 20px;
+		border-color:$naranja;
+		p{
+			color:$naranja;
+			line-height: 1.5;
+		}
+	}
+
+	.bck{
+		@include linea(0px, 15px, 24px);
+		h3{
+			font-size: 1em;
+		}
+		span{
+		padding:5px 35px 10px 0px;
+		background-color:white;
+	}
+	}
+	a{
+		display: block;
+		color:black;
+		font-size: .9em;
+	}
+	.caja{
+		border:1px solid $naranja;
+		background-color:$orangelight;
+		width: 55px;
+		height:55px;
+		display: inline-block;
+	}
+
+}
+.imgarticle{
+	padding:5px;
+	border:1px solid $gris;
+}

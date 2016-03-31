@@ -1,0 +1,50 @@
+/*colores*/
+$naranja: #E7663B;
+$naranjac: #F3AF9D;
+$grisle: #D6D6D6;
+$lefoo: #F2AE98;
+$blanco: #FFFFFF;
+$orangelight: #F1AE9D;
+$gris: rgba(0,0,0,.3);
+
+/* ----------------------------------------------------------------- */
+@mixin propertieich{
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing:3px;
+}
+@mixin linea ($mgtop, $mgbtm, $hei){
+    background-image:url(../images/post_border_bg.png);
+    background-repeat:repeat;
+    margin-bottom:30px;
+    margin-top: $mgtop;
+    margin-bottom:$mgbtm;
+    height: $hei;
+}
+/* ------------------------------------------------------------------ */
+.mgt{
+    margin-top:-30px;
+}
+.pd{
+    padding:0px;
+}
+.pdt{
+    padding:10px 0px;
+}
+.pdb{
+    padding-bottom:50px;
+}
+.pdl{
+    padding:0px 15px;
+}
+.row{
+    border-left:15px solid white;
+    border-right:15px solid white;  
+}
+/*floats*/
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
