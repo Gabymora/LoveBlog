@@ -64,14 +64,17 @@
 		height:55px;
 		display: inline-block;
 	}
-	#catego ul li{ 
-		a{
+	#catego{ 
+		ul li{ 
 		text-decoration: none;
+		list-style-type: none !important; 
+		a{
 		color: black !important;
-		list-style-type: none; 
 		display: list-item; 
 		}
 	}
+}
+
 .bck{
 		@include linea(0px, 10px, 24px);
 		h3{

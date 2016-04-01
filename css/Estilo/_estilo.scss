@@ -23,9 +23,11 @@ h3,h4{
 		color: white;
 		background-color:$naranja;
 		text-transform: uppercase;
-		padding:15px;
+		padding:16px;
 		font-family: 'Beba';
-		margin-top: -3px;
+		border-left: 15px white solid;
+		border-right: 15px white solid;
+		padding-left: 2%;
 	}
 }
 .boton{
@@ -77,10 +79,9 @@ article{
 	margin:0 !important;
 }
 .franja{ 
-	min-height: 38px;
+	min-height: 39 px;
 	.liston {
-    padding: 10px !important;
-    margin-left: -1%;
+    padding: 15px !important;
     margin-right: 0%;
     margin-top: 0;
 	}

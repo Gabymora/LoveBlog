@@ -5,34 +5,35 @@
 	font-size: 18px;
 	margin-top: 3%;
 	margin-bottom: 5%;
+	color: $grisle !important;
+	
+	.navbar{
 	ul li {
 		margin-top:15px !important;
 		margin-bottom: 15px !important;	
-		   li{
-			   	a{
-			   		padding:5px 20px;
-			   		color: $grisle !important;
-			   } 
-		   }
-			li a span {
+		a{
+	   		padding:5px 20px;
+	   		
+	    } 
+		a span {
 				color: black !important;
 				font-size: 20px !important;
 				margin-top: 15px !important;
 			}
-		   .active{
+		.active{
 		   		font-weight: bold;
 		   		background-color:$naranja !important;
 		   		color:white !important;
 		   	}
 		}
 }
-#imgp col-md-3 {
+}
+#imgp {
 	.imgarticle{
 		padding:5px 10px;
 		margin-right: 10px;
 		border:1px solid $gris;
 	}
-}
 	.info {
 		font-family: 'Beba';
 		h4{
@@ -47,11 +48,15 @@
 		color:$naranja;
 		}
 	}
-
+}
 @media screen and (max-width:768px){
+.imgp{
+	padding: auto;
+	margin:auto;
 	.imgarticle{
 		img{
-			width: 100% !important;
+			width: content !important;
 		}
 	}
+}
 }
