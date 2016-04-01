@@ -16,10 +16,13 @@ $gris: rgba(0,0,0,.3);
 @mixin linea ($mgtop, $mgbtm, $hei){
     background-image:url(../images/post_border_bg.png);
     background-repeat:repeat;
-    margin-bottom:30px;
     margin-top: $mgtop;
     margin-bottom:$mgbtm;
     height: $hei;
+}
+@mixin espan ($padd){
+    background-color: white;
+    padding: $padd;
 }
 /* ------------------------------------------------------------------ */
 .mgt{
@@ -29,7 +32,7 @@ $gris: rgba(0,0,0,.3);
     padding:0px;
 }
 .pdt{
-    padding:10px 0px;
+    padding:10px 0px !important;
 }
 .pdb{
     padding-bottom:50px;
@@ -40,6 +43,12 @@ $gris: rgba(0,0,0,.3);
 .row{
     border-left:15px solid white;
     border-right:15px solid white;  
+}
+.mgt3{
+    margin-top: 3%;
+}
+.mgb3{
+    margin-bottom: 3%;
 }
 /*floats*/
 .floatleft {

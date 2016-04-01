@@ -17,7 +17,7 @@ h3,h4{
 }
 .franja{
 	background-color:$orangelight;
-	min-height:50px;
+	min-height:49px;
 
 	.liston{
 		color: white;
@@ -25,6 +25,7 @@ h3,h4{
 		text-transform: uppercase;
 		padding:15px;
 		font-family: 'Beba';
+		margin-top: -3px;
 	}
 }
 .boton{
@@ -53,28 +54,39 @@ h3,h4{
 		margin-top: 5px;
 	}
 	span{
-		padding:25px 85px 20px 0px;
-		background-color:white;
+		@include espan (25px 85px 20px 0px);
 	}
 }
 
 @media screen and (max-width:768px){
 	
-	.contenido{
-		.media{
-			.media-body{
-				overflow: initial;
-			}
-		}
-		.form-group{
-			input{
-				width: 100%;
-			}
+.contenido{
+	.media{
+		.media-body{
+			overflow: initial;
 		}
 	}
-	article{
-		padding:0;
-		margin:0;
+	.form-group{
+		input{
+			width: 100%;
+		}
 	}
-	
-} 
+}
+article{
+	padding:0 !important;
+	margin:0 !important;
+}
+.franja{ 
+	min-height: 38px;
+	.liston {
+    padding: 10px !important;
+    margin-left: -1%;
+    margin-right: 0%;
+    margin-top: 0;
+	}
+}
+.single_main_content {
+    width: 550px;
+}
+
+}

@@ -8,7 +8,7 @@
   padding: 0px; }
 
 .pdt {
-  padding: 10px 0px; }
+  padding: 10px 0px !important; }
 
 .pdb {
   padding-bottom: 50px; }
@@ -19,6 +19,12 @@
 .row {
   border-left: 15px solid white;
   border-right: 15px solid white; }
+
+.mgt3 {
+  margin-top: 3%; }
+
+.mgb3 {
+  margin-bottom: 3%; }
 
 /*floats*/
 .floatleft {
@@ -46,13 +52,14 @@ h3, h4 {
 
 .franja {
   background-color: #F1AE9D;
-  min-height: 50px; }
+  min-height: 49px; }
   .franja .liston {
     color: white;
     background-color: #E7663B;
     text-transform: uppercase;
     padding: 15px;
-    font-family: 'Beba'; }
+    font-family: 'Beba';
+    margin-top: -3px; }
 
 .boton {
   font-family: 'Beba';
@@ -72,7 +79,6 @@ h3, h4 {
 .bck {
   background-image: url(../images/post_border_bg.png);
   background-repeat: repeat;
-  margin-bottom: 30px;
   margin-top: 15px;
   margin-bottom: 3%;
   height: 30px; }
@@ -83,8 +89,8 @@ h3, h4 {
     text-transform: uppercase;
     margin-top: 5px; }
   .bck span {
-    padding: 25px 85px 20px 0px;
-    background-color: white; }
+    background-color: white;
+    padding: 25px 85px 20px 0px; }
 
 @media screen and (max-width: 768px) {
   .contenido .media .media-body {
@@ -93,8 +99,19 @@ h3, h4 {
     width: 100%; }
 
   article {
-    padding: 0;
-    margin: 0; } }
+    padding: 0 !important;
+    margin: 0 !important; }
+
+  .franja {
+    min-height: 38px; }
+    .franja .liston {
+      padding: 10px !important;
+      margin-left: -1%;
+      margin-right: 0%;
+      margin-top: 0; }
+
+  .single_main_content {
+    width: 550px; } }
 header {
   font-family: 'Beba'; }
 
@@ -133,20 +150,8 @@ header {
   border-left: 10px solid white;
   border-right: 10px solid white;
   margin-top: -50px;
-  margin-bottom: 5%; }
-
-article {
-  padding-right: 40px;
-  margin-bottom: 40px; }
-  article p {
-    color: #000; }
-  article .media .media-body h4 {
-    color: #E7663B;
-    font-family: 'Beba';
-    font-size: 1.1em;
-    word-spacing: 3px;
-    padding: 5px;
-    line-height: 1.5; }
+  margin-bottom: 5%;
+  width: 100%; }
 
 #previewgallery {
   font-family: 'Beba'; }
@@ -196,42 +201,41 @@ footer article {
     font-size: .9em;
     color: #F2AE98; }
 
-.contenido {
+#contenido {
   padding-top: 20px; }
-  .contenido p {
+  #contenido p {
     color: black;
     font-size: .9em; }
-  .contenido .imgarticle {
-    margin-right: 5px; }
-    .contenido .imgarticle img {
-      width: 100%; }
-  .contenido .media {
+  #contenido .imgarticle img {
+    width: 100%; }
+  #contenido .media {
     margin: 0px 0px 20px; }
-  .contenido blockquote {
+  #contenido blockquote {
     width: 80%;
     margin: 30px auto;
     padding: 0px 20px;
     border-color: #E7663B; }
-    .contenido blockquote p {
+    #contenido blockquote p {
       color: #E7663B;
       line-height: 1.5; }
-  .contenido .bck {
+    #contenido blockquote .single_main_content {
+      position: relative; }
+  #contenido .bck {
     background-image: url(../images/post_border_bg.png);
     background-repeat: repeat;
-    margin-bottom: 30px;
     margin-top: 0px;
     margin-bottom: 15px;
     height: 24px; }
-    .contenido .bck h3 {
+    #contenido .bck h3 {
       font-size: 1em; }
-    .contenido .bck span {
-      padding: 5px 35px 10px 0px;
-      background-color: white; }
-  .contenido a {
+    #contenido .bck span {
+      background-color: white;
+      padding: 8px 35px 10px 0px; }
+  #contenido a {
     display: block;
     color: black;
     font-size: .9em; }
-  .contenido .caja {
+  #contenido .caja {
     border: 1px solid #E7663B;
     background-color: #F1AE9D;
     width: 55px;
@@ -240,6 +244,7 @@ footer article {
 
 .imgarticle {
   padding: 5px;
+  margin-right: 5px;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .contenido img {
@@ -301,7 +306,71 @@ footer article {
   display: inline-block; }
 .contenido article .bckwhite {
   background-color: white; }
+.contenido .caja {
+  border: 1px solid #E7663B;
+  background-color: #F1AE9D;
+  width: 55px;
+  height: 55px;
+  display: inline-block; }
+.contenido #catego ul li a {
+  text-decoration: none;
+  color: black !important;
+  list-style-type: none;
+  display: list-item; }
+.contenido .bck {
+  background-image: url(../images/post_border_bg.png);
+  background-repeat: repeat;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 24px; }
+  .contenido .bck h3 {
+    font-size: 1em; }
+  .contenido .bck span {
+    background-color: white;
+    padding: 8px 35px 8px 0px; }
 
+#ktegories {
+  font-family: 'Beba';
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 3%;
+  margin-bottom: 5%; }
+  #ktegories ul li {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important; }
+    #ktegories ul li li a {
+      padding: 5px 20px;
+      color: #D6D6D6 !important; }
+    #ktegories ul li li a span {
+      color: black !important;
+      font-size: 20px !important;
+      margin-top: 15px !important; }
+    #ktegories ul li .active {
+      font-weight: bold;
+      background-color: #E7663B !important;
+      color: white !important; }
+
+#imgp col-md-3 .imgarticle {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.info {
+  font-family: 'Beba'; }
+  .info h4 {
+    text-transform: uppercase;
+    color: #D6D6D6 !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 5%;
+    padding-top: 3%; }
+  .info span {
+    font-size: 10px;
+    color: #E7663B; }
+
+@media screen and (max-width: 768px) {
+  .imgarticle img {
+    width: 100% !important; } }
 @font-face {
   font-family: 'Beba';
   src: url("../font/bebas___-webfont.ttf"); }

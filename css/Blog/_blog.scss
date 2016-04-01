@@ -56,7 +56,29 @@
 		.bckwhite{
 				background-color:white;
 			}
-
 	}
-
+	.caja{
+		border:1px solid $naranja;
+		background-color:$orangelight;
+		width: 55px;
+		height:55px;
+		display: inline-block;
+	}
+	#catego ul li{ 
+		a{
+		text-decoration: none;
+		color: black !important;
+		list-style-type: none; 
+		display: list-item; 
+		}
+	}
+.bck{
+		@include linea(0px, 10px, 24px);
+		h3{
+			font-size: 1em;
+		}
+		span{
+			@include espan (8px 35px 8px 0px);
+		}
+}
 }

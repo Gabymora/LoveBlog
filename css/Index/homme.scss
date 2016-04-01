@@ -47,23 +47,7 @@ header{
 		border-right: 10px solid white;
 		margin-top: -50px;
 		margin-bottom: 5%;
-	}
-}
-article{
-	padding-right:40px;
-	margin-bottom:40px;
-	p{
-		color:#000;
-	}
-	.media{	
-		.media-body{
-			h4{
-				color:$naranja;
-				@include propertieich;
-				padding:5px;
-				line-height: 1.5;
-			}
-		}
+		width: 100%;
 	}
 }
 #previewgallery{
